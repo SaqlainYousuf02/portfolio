@@ -1,0 +1,57 @@
+
+  /* Light gray background and white text */
+body {
+    background-color: #0000d6; /* light gray */
+    color: rgb(12, 12, 12);
+    scroll-behavior: smooth;
+  }
+ 
+  
+  /* Navbar dark */
+  .navbar {
+    background-color: #000000 !important;
+  }
+  
+  /* Common Section styling */
+  .section {
+    background-color: #7676d9;
+    padding: 60px 20px;
+  }
+  
+  /* Profile Image */
+  .profile-img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid rgb(7, 7, 7);
+    box-shadow: 0 0 15px rgba(251, 6, 10, 0.989);
+  }
+  
+  /* Boxes styling */
+  .skill-box, .contact-box, .project-box {
+    background-color: rgba(249, 246, 246, 0.952);
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0;
+    transition: 0.3s;
+    color: rgb(19, 18, 18);
+  }
+  
+  .skill-box:hover,
+  .contact-box:hover,
+  .project-img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Project Image */
+  .project-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  .about{
+   
+    border-radius: 10px;
+    margin: 10px 0;
+  }
